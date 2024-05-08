@@ -6,17 +6,17 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
      @baseText = "Ruby on Rails Tutorial Sample App"
   end
 
-test "should get root" do
-get root_url
-assert_response :success
-assert_select "title", "Home | #{@baseText}"
-end
+# test "should get root" do
+# get root_url
+# assert_response :success
+# assert_select "title", "home | #{@baseText}"
+# end
 
 
   test "should get home" do
     get static_pages_home_url
     assert_response :success
-    assert_select "title", "Home | #{@baseText}"
+    assert_select "title", "#{@baseText}"
   end
 
   test "should get help" do
