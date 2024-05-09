@@ -1,41 +1,13 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
+
   <%= render 'layouts/head' %>
-=======
-  <head>
-   <title><%= full_title(yield(:title)) %></title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
->>>>>>> 0c3412da973d98a16d5f10824eb95d2152ea4e8a
-
-  </head>
   <body>
-<<<<<<< HEAD
     <%= render 'layouts/header' %>
   <div class="container">
     <%= yield %>
     <%= render 'layouts/footer' %>
-=======
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-       <% link_to "sample app", '#', id: "logo" %>
-       <nav>
-        <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to "Home", '#' %></li>
-           <li><%= link_to "Help", '#' %></li>
-            <li><%= link_to "Log in", '#' %></li>
-        </ul>
-       </nav>
-      </div>
-    </header>
-    <div class="container">
-    <%= yield %>
->>>>>>> 0c3412da973d98a16d5f10824eb95d2152ea4e8a
   </div>
   </body>
 </html>

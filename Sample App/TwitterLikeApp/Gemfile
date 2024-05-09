@@ -6,9 +6,6 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.8", ">= 7.0.8.1"
 
-<<<<<<< HEAD
-gem 'bootstrap-sass', '3.4.1'
-=======
 gem 'bootstrap-sass',     '3.4.1'
 >>>>>>> 0c3412da973d98a16d5f10824eb95d2152ea4e8a
 
